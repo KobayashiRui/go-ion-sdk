@@ -2,7 +2,7 @@ package transport
 
 import (
 	"fmt"
-	"go-ion-sdk/signal"
+	"github.com/KobayashiRui/go-ion-sdk/signal"
 
 	"github.com/pion/webrtc/v3"
 )

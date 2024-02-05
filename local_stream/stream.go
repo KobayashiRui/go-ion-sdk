@@ -3,7 +3,7 @@ package local_stream
 import (
 	//"native-test/ion_sfu_client"
 	"fmt"
-	"go-ion-sdk/transport"
+	"github.com/KobayashiRui/go-ion-sdk/transport"
 
 	"github.com/pion/mediadevices"
 	"github.com/pion/webrtc/v3"

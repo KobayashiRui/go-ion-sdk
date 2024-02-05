@@ -2,9 +2,9 @@ package client
 
 import (
 	"fmt"
-	"go-ion-sdk/local_stream"
-	"go-ion-sdk/signal"
-	. "go-ion-sdk/transport"
+	"github.com/KobayashiRui/go-ion-sdk/local_stream"
+	"github.com/KobayashiRui/go-ion-sdk/signal"
+	. "github.com/KobayashiRui/go-ion-sdk/transport"
 
 	"github.com/pion/webrtc/v3"
 )
