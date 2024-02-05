@@ -1,4 +1,4 @@
-module go-ion-sdk
+module github.com/KobayashiRui/go-ion-sdk
 
 go 1.19
 
