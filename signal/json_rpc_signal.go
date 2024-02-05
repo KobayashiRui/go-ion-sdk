@@ -43,6 +43,10 @@ func (sig *IonSFUJSONRPCSignal) Connect(uri string) {
 
 }
 
+func (sig *IonSFUJSONRPCSignal) SetConnect(jrcp *jsonrpc2.Conn) {
+	sig.jrpc = jrcp
+}
+
 func (sig *IonSFUJSONRPCSignal) Join(sid string, uid string, offer webrtc.SessionDescription) webrtc.SessionDescription {
 	join := Join{
 		SID:   sid,
